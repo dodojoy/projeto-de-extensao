@@ -29,10 +29,6 @@ main{
   cursor: pointer;
 }
 
-.container{
-  width: 1200px;
-}
-
 .navbar{
   width: 100%;
   display: flex;

@@ -1,13 +1,16 @@
 .container{
-    background-color: inherit;
-    border: 1px solid white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    width: 303px;
+    gap: 10px;
+
+    width: 100%;
     height: 147px;
+
     border-radius: 20px;
+    border: 1px solid white;
+
     transition: .5s;
 }
 .container:hover{
@@ -19,16 +22,8 @@
 
 .carrerstitle{
     color: white;
+    font-size: 20px;
     font-weight: 500;
-    size: 20px;
     line-height: 23.44px;
-    background-color: inherit;
-}
-
-.container img{
-    background-color: inherit;
-}
-
-.container h2{
     background-color: inherit;
 }

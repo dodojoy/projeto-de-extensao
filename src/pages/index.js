@@ -10,10 +10,9 @@ export default function Home() {
   return (
     <>
       <Header />
+
       <main className={`${styles.main} ${inter.className}`}>
         <CarrersSection />
-        <Container>
-        </Container>
       </main>
     </>
   );
