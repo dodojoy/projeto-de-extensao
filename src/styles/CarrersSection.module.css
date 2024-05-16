@@ -1,0 +1,41 @@
+.containersection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  width: 100%;
+  max-width: 100%;
+  padding: 45px 64px 45px 64px;
+  
+  background-color: #281c73;
+  color: white;
+
+  box-sizing: border-box;
+}
+
+.containersection .titles {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  text-align: center;
+}
+
+.containersection h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.containersection p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  gap: 30px;
+}
