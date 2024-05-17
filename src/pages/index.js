@@ -15,12 +15,9 @@ export default function Home() {
   return (
     <>
       <Header />
-
       <main className={`${styles.main} ${inter.className}`}>
+        <MainSection />
         <CarrersSection />
-
-      <MainSection/>
-      <main className={`${styles.main} ${inter.className}`}>
         <Container>
         </Container>
       </main>

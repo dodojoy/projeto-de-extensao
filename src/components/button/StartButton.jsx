@@ -4,7 +4,7 @@ import styles from "@/styles/MainSection.module.css";
 export default function StartButton() {
   function handleStartClick() {
    
-    const element = document.getElementById('Carreiras');
+    const element = document.getElementById('DESENVOLVEDOR BACK-END');
 
     element.scrollIntoView({ behavior: 'smooth' });
   
