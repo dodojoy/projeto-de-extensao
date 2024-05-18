@@ -39,3 +39,9 @@
   width: 100%;
   gap: 30px;
 }
+
+@media screen and (min-width: 768px) {
+  .containersection {
+    background-color: green;
+  }
+}
