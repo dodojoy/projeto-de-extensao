@@ -40,8 +40,48 @@
   gap: 30px;
 }
 
-@media screen and (min-width: 768px) {
-  .containersection {
-    background-color: green;
+@media screen and (min-width: 768px) { 
+   .containersection {
+    background-color: #281c73;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 15vh;
   }
+  
+  .containersection h2{
+    margin-top: 5vh;
+    font-size: 5.5vh;
+  }
+
+  .containersection p{
+    margin-top: 3vh;
+    font-size: 4vh;
+    margin-bottom: 7vh;
+  }
+
+
+  .cardContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    justify-items: center;
+    align-items: center;
+    gap: 5vh;
+  }
+
+  .cardContainer img{
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .cardContainer h3{
+    font-size: 2vw;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
 }

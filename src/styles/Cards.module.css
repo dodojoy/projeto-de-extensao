@@ -27,3 +27,22 @@
     line-height: 23.44px;
     background-color: inherit;
 }
+
+@media screen and (min-width: 768px) {
+    
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        width: 85%;
+        height: 32vh;
+        gap: 7vh;
+        padding: 1vh;
+    }
+
+    .carrerstitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}
