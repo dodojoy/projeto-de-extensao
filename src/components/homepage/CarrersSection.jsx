@@ -20,12 +20,12 @@ export default function CarrersSection() {
     },
     {
       carrer: "DESENVOLVEDOR FRONT-END",
-      imgSrc: "/assets/logo-data-science.svg",
+      imgSrc: "/assets/logo-frontend.svg",
       alternative: "logo desenvolvedor front-end",
     },
     {
       carrer: "DESENVOLVEDOR BACK-END",
-      imgSrc: "/assets/logo-data-science.svg",
+      imgSrc: "/assets/logo-backend.svg",
       alternative: "logo desenvolvedor back-end",
     },
     {
