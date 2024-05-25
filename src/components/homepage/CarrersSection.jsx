@@ -1,5 +1,6 @@
 import Cards from "@/components/global/Cards";
 import styles from "@/styles/CarrersSection.module.css";
+import containerStyles from "@/styles/Container.module.css";
 
 export default function CarrersSection() {
   const cardData = [
@@ -58,18 +59,20 @@ export default function CarrersSection() {
   return (
     <section className={styles.containersection}>
         
-      <div className={styles.titles}>
-        <h2>CONHEÇA AS PRINCIPAIS CARREIRAS NA ÁREA</h2>
-        <p>DESCUBRA QUAL CARREIRA COMBINA COM VOCÊ</p>
-      </div>
-      <div className={styles.cardContainer}>
-        {cardData.map((card) => (
-          <Cards
-            image={card.imgSrc}
-            carrer={card.carrer}
-            alternative={card.alternative}
-          />
-        ))}
+      <div className={`${styles.containersection} ${containerStyles.container}`}>
+        <div className={styles.titles}>
+          <h2>CONHEÇA AS PRINCIPAIS CARREIRAS NA ÁREA</h2>
+          <p className={styles.subtitle}>DESCUBRA QUAL CARREIRA COMBINA COM VOCÊ</p>
+        </div>
+        <div className={styles.cardContainer}>
+          {cardData.map((card) => (
+            <Cards
+              image={card.imgSrc}
+              carrer={card.carrer}
+              alternative={card.alternative}
+            />
+          ))}
+        </div>
       </div>
       
     </section>
