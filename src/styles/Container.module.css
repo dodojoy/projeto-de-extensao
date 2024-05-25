@@ -1,3 +1,6 @@
-.container{
-    max-width: 1900px;
-  }
+.container {
+  max-width: 1200px; /* Defina a largura máxima desejada */
+  margin: 0 auto;    /* Centraliza o container horizontalmente */
+  padding: 0 20px;
+  width: 100%;
+}
