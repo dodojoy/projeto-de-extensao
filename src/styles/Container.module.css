@@ -1,6 +1,6 @@
 .container {
-  max-width: 1200px; /* Defina a largura máxima desejada */
-  margin: 0 auto;    /* Centraliza o container horizontalmente */
+  max-width: 1200px; 
+  margin: 0 auto;
   padding: 0 20px;
   width: 100%;
   border-bottom: none;
