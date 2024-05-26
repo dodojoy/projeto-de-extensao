@@ -12,7 +12,8 @@
 
   box-sizing: border-box;
 
-  padding: 45px 20px;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 .containersection .titles {

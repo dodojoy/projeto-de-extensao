@@ -5,6 +5,8 @@ import Header from "@/components/homepage/Header";
 import CarrersSection from "@/components/homepage/CarrersSection";
 
 import MainSection from "@/components/homepage/MainSection";
+import About from "@/components/homepage/About";
+import Footer from "@/components/homepage/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,7 +17,9 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <MainSection />
         <CarrersSection />
+        <About />
       </main>
+      <Footer />
     </>
   );
 }
