@@ -1,6 +1,7 @@
 import MainSection from "@/components/devIA/MainSection";
 import Footer from "@/components/homepage/Footer";
 import Header from "@/components/homepage/Header";
+import DevFunctionSection from "@/components/devIA/DevFunctionContent";
 
 export default function IA() {
   return (
@@ -8,6 +9,7 @@ export default function IA() {
       <Header />
       <main>
         <MainSection />
+        <DevFunctionSection />
       </main>
       <Footer />
     </>

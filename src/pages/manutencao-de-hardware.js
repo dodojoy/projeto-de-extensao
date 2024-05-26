@@ -1,6 +1,7 @@
 import Footer from "@/components/homepage/Footer";
 import Header from "@/components/homepage/Header";
 import MainSection from "@/components/manutencao/MainSection";
+import DevFunctionSection from "@/components/manutencao/DevFunctionContent";
 
 export default function Manutencao() {
   return (
@@ -8,6 +9,7 @@ export default function Manutencao() {
       <Header />
       <main>
         <MainSection />
+        <DevFunctionSection />
       </main>
       <Footer />
     </>

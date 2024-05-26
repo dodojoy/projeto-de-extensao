@@ -1,6 +1,7 @@
 import MainSection from "@/components/devWeb/MainSection";
 import Footer from "@/components/homepage/Footer";
 import Header from "@/components/homepage/Header";
+import DevFunctionSection from "@/components/devWeb/DevFunctionContent";
 
 export default function Web() {
   return (
@@ -8,6 +9,7 @@ export default function Web() {
       <Header />
       <main>
         <MainSection />
+        <DevFunctionSection />
       </main>
       <Footer />
     </>
