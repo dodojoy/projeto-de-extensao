@@ -1,7 +1,6 @@
 import MainSection from "@/components/engenheiro/MainSection";
 import Footer from "@/components/homepage/Footer";
 import Header from "@/components/homepage/Header";
-import DevFunctionSection from "@/components/engenheiro/DevFunctionSection";
 
 export default function Engenheiro() {
   return (
@@ -9,7 +8,6 @@ export default function Engenheiro() {
       <Header />
       <main>
         <MainSection />
-        <DevFunctionSection />
       </main>
       <Footer />
     </>
