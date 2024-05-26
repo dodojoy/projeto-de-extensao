@@ -1,6 +1,7 @@
 import MainSection from "@/components/cientistaDados/MainSection";
 import Footer from "@/components/homepage/Footer";
 import Header from "@/components/homepage/Header";
+import DevFunctionSection from "@/components/cientistaDados/DevFunctionContent";
 
 export default function Dados() {
   return (
@@ -8,6 +9,7 @@ export default function Dados() {
       <Header />
       <main>
         <MainSection />
+        <DevFunctionSection />
       </main>
       <Footer />
     </>
