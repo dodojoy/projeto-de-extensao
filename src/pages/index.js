@@ -1,5 +1,4 @@
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
 import Header from "@/components/homepage/Header";
 
 import CarrersSection from "@/components/homepage/CarrersSection";
@@ -14,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className={`${styles.main} ${inter.className}`}>
+      <main className={`${inter.className}`}>
         <MainSection />
         <CarrersSection />
         <About />
