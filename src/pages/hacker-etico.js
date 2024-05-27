@@ -1,3 +1,5 @@
+import Material from "@/components/hacker-etico/Material";
+
 import MainSection from "@/components/hacker/MainSection";
 import Footer from "@/components/homepage/Footer";
 import Header from "@/components/homepage/Header";
@@ -10,6 +12,7 @@ export default function Hacker() {
       <main>
         <MainSection />
         <DevFunctionSection />
+        <Material/>
       </main>
       <Footer />
     </>
