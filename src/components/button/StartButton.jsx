@@ -1,14 +1,11 @@
 import React from 'react';
 import styles from "@/styles/MainSection.module.css";
 
-export default function StartButton() {
+export default function StartButton({ careersRef }) {
   function handleStartClick() {
-   
-    const element = document.getElementById('DESENVOLVEDOR BACK-END');
-
-    element.scrollIntoView({ behavior: 'smooth' });
-  
-    element.classList.add(styles.animate);
+    if (careersRef && careersRef.current) {
+      careersRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
   }
 
   return (

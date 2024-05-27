@@ -1,62 +1,68 @@
-.header{
-    height: 6vh;
+.header {
+  height: 6vh;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    padding: 10px 10px;
+  padding: 10px 10px;
 
-    background-color: black;
+  background-color: black;
 
-    border-bottom: #FFFFFF 0.5px solid;
+  border-bottom: #ffffff 0.5px solid;
 }
 
-.menuOpen{
-    width: 100%;
-    height: 100vh;
+.menuOpen {
+  width: 100%;
+  height: 100vh;
 
-    position: fixed;
-    top: 0;
-    left: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
 
-    background-color: #281C73;
-    color: white;
-    text-transform: uppercase;
-    font-size: 32px;
+  background-color: #281c73;
+  color: white;
+  text-transform: uppercase;
+  font-size: 32px;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .ul {
+    list-style: none;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    gap: 30px;
+    text-align: center;
+  }
 
-    .ul{
-        list-style: none;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        text-align: center;
-    }
+  .closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
 
-    .closeBtn{
-        position: absolute;
-        top: 10px;
-        right: 10px;
-    }
+  .link {
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+  }
 }
 
 .desktopMenu {
-    list-style: none;
-    display: flex;
-    gap: 40px;
-    padding: 0;
-    margin: 0;
-  }
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+}
 
-  .desktopMenu li {
-    color: white;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 300;
-  }
+.desktopMenu li {
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
