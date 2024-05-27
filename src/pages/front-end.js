@@ -1,5 +1,3 @@
-import MaterialFrontEnd from "@/components/front-end.js/Material";
-
 import MainSection from "@/components/devFront/MainSection";
 import Footer from "@/components/homepage/Footer";
 import Header from "@/components/homepage/Header";
@@ -12,10 +10,8 @@ export default function FrontEnd() {
       <main>
         <MainSection />
         <DevFunctionSection />
-        <MaterialFrontEnd/>
       </main>
       <Footer />
     </>
   );
-  
 }
