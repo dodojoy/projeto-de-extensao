@@ -8,6 +8,9 @@ import MainSection from "@/components/homepage/MainSection";
 import About from "@/components/homepage/About";
 import Footer from "@/components/homepage/Footer";
 
+
+
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
