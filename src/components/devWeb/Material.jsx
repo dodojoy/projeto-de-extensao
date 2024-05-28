@@ -8,9 +8,7 @@ export default function MaterialWeb() {
       <div className={styles.Titulo}>
         <Titulo titulo="Materiais" />
       </div>
-      <div
-        className={styles.detailsContainer}
-      >
+      <div className={styles.detailsContainer}>
         <Details summary="Materiais gratuitos">
           <div className={styles.card}>
             <a
@@ -89,7 +87,9 @@ export default function MaterialWeb() {
           </div>
         </Details>
         <Details summary="Materiais extras">
-          <p>Conteúdo dos materiais extras</p>
+          <div className={styles.cardTitle}>
+            <p>Conteúdo dos materiais extras</p>
+          </div>
         </Details>
       </div>
     </section>

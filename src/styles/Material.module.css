@@ -133,11 +133,17 @@
   .ConteudoMateriais {
     grid-template-columns: repeat(2, 1fr);
   }
-}
+
+  .Titulo{
+    font-size: 22px;
+  }
+  
+ }
+
 
 @media screen and (min-width: 1200px) {
   .ConteudoMateriais img {
     width: 580px;
     height: auto;
-  }  
- }
+  }
+}
