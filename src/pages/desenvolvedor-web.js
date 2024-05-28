@@ -1,4 +1,4 @@
-import MaterialWeb from "@/components/desenvolvedor-web/Material";
+import MaterialWeb from "@/components/devWeb/Material";
 
 import MainSection from "@/components/devWeb/MainSection";
 import Footer from "@/components/homepage/Footer";
@@ -12,7 +12,7 @@ export default function Web() {
       <main>
         <MainSection />
         <DevFunctionSection />
-        <MaterialWeb/>
+        <MaterialWeb />
       </main>
       <Footer />
     </>

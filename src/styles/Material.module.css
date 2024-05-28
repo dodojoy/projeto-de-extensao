@@ -1,7 +1,19 @@
-.MaterialSection {
+.materialContainer {
   width: 100%;
   height: auto;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.MaterialSection {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
   padding-bottom: 45px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
 
   background-color: #000;
   color: rgba(255, 255, 255, 1);
@@ -28,23 +40,24 @@
   align-items: center;
 }
 
-
 .Section {
-  width: 345px;
+  width: 100%;
+
   font-size: 18px;
   font-weight: 400;
   line-height: 50px;
-  
+
   position: relative;
 
   border-bottom: 2px solid rgba(78, 56, 215, 1);
-}
 
+  display: flex;
+  justify-content: space-between;
+}
 
 .Summary.OpenSummary {
   color: rgba(78, 56, 215, 1) !important;
 }
-
 
 .Button {
   background-color: #000;
@@ -52,9 +65,9 @@
   height: 25px;
   border: none;
 
-  position: absolute;
+  /* position: absolute;
   top: 0;
-  right: 0;
+  right: 0; */
   margin: 10px;
 }
 
@@ -66,32 +79,65 @@
   transform: rotate(180deg);
 }
 
-
 .ConteudoMateriais {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: auto;
   padding-top: 20px;
-  gap: 110px;
+  gap: 30px;
 }
 
-.ConteudoMateriais > :not(img) {
-  width: 270px;
-  height: 45px;
-  align-items: center;
-}
-
-.ConteudoMateriais p{
+.ConteudoMateriais .cardTitle {
   font-size: 0.7em;
   line-height: 20px;
   text-align: center;
-  
 
   background-color: rgba(78, 56, 215, 1);
+
+  margin: 0;
+  width: 100%;
+  min-height: 42px;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5px;
 }
 
 .ConteudoMateriais img {
-  width: 270px;
-  height: 156px;
+  width: 100%;
+  height: auto;
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.card a {
+  margin: 0;
+  padding: 0;
+}
+
+.detailsContainer {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .ConteudoMateriais {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .ConteudoMateriais img {
+    width: 580px;
+    height: auto;
+  }  
+ }

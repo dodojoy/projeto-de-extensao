@@ -4,7 +4,7 @@ import styles from '@/styles/Material.module.css';
 
 export default function MaterialEngSof() {
   return (
-    <div>
+    <>
       <div className={styles.Titulo}>
         <Titulo titulo="Materiais" />
       </div>
@@ -42,6 +42,6 @@ export default function MaterialEngSof() {
           <p>Conteúdo dos materiais extras</p>
         </Details>
       </div>
-    </div>
+    </>
   );
 }
