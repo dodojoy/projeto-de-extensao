@@ -2,7 +2,6 @@ import styles from "@/styles/MainSection.module.css";
 import StartButton from "../button/StartButton";
 import Titulo from "../titulos/Titulo";
 import Subtitulo from "../titulos/Subtitulo";
-import containerStyles from "@/styles/Container.module.css";
 
 export default function MainSection({careersRef}) {
   return (

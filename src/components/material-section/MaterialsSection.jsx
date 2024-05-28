@@ -11,14 +11,17 @@ export default function Details({ summary, children }) {
   return (
     <div className={styles.MaterialSection}>
       <div className={styles.Section}>
-        <summary className={`${styles.Summary} ${detailsOpen ? styles.OpenSummary : ''}`} onClick={toggleDetails}>
-          {summary}
-        </summary>
-        {detailsOpen && <div className={styles.ConteudoMateriais}>{children}</div>}
-        <button className={`${styles.Button} ${detailsOpen ? styles.Rotated : ''}`} onClick={toggleDetails}>
-          <img src="/assets/vector.svg" alt="vetor" />
-        </button>
+
+          <summary className={`${styles.Summary} ${detailsOpen ? styles.OpenSummary : ''}`} onClick={toggleDetails}>
+            {summary}
+          </summary>
+          
+          <button className={`${styles.Button} ${detailsOpen ? styles.Rotated : ''}`} onClick={toggleDetails}>
+            <img src="/assets/vector.svg" alt="vetor" />
+          </button>
+        
       </div>
+        {detailsOpen && <div className={styles.ConteudoMateriais}>{children}</div>}
     </div>
   );
 }
