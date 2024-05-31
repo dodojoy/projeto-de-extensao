@@ -67,9 +67,9 @@ export default function Header({ careersRef, aboutRef }) {
         {isDesktop && (
           <nav>
             <ul className={styles.desktopMenu}>
-              <li onClick={() => router.push("/")}>home</li>
-              <li onClick={() => handleNavigation("careers")}>carreiras</li>
-              <li onClick={() => handleNavigation("about")}>sobre</li>
+              <li style={{cursor: "pointer"}} onClick={() => router.push("/")}>home</li>
+              <li style={{cursor: "pointer"}} onClick={() => handleNavigation("careers")}>carreiras</li>
+              <li style={{cursor: "pointer"}} onClick={() => handleNavigation("about")}>sobre</li>
             </ul>
           </nav>
         )}

@@ -1,4 +1,5 @@
 import styles from "@/styles/Header.module.css";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 
@@ -43,25 +44,25 @@ export default function MenuHeader({ handleMenu, careersRef, aboutRef }) {
       />
       <ul className={styles.ul}>
         <li>
-          <a href="/" className={styles.link}>
+          <Link href="/" className={styles.link}>
             home
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+        <Link
             className={styles.link}
             onClick={() => handleNavigation(careersRef, "careers")}
           >
             carreiras
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             className={styles.link}
             onClick={() => handleNavigation(aboutRef, "about")}
           >
             sobre
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
