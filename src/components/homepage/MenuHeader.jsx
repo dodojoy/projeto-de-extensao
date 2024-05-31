@@ -44,23 +44,17 @@ export default function MenuHeader({ handleMenu, careersRef, aboutRef }) {
       />
       <ul className={styles.ul}>
         <li>
-          <Link href="/" className={styles.link}>
+          <Link href="/" className={styles.link} onClick={handleMenu}>
             home
           </Link>
         </li>
         <li>
-        <Link
-            className={styles.link}
-            onClick={() => handleNavigation(careersRef, "careers")}
-          >
+          <Link href="/#careers" className={styles.link} onClick={() => handleNavigation(careersRef, "careers")}>
             carreiras
           </Link>
         </li>
         <li>
-          <Link
-            className={styles.link}
-            onClick={() => handleNavigation(aboutRef, "about")}
-          >
+          <Link href="/#about" className={styles.link} onClick={() => handleNavigation(aboutRef, "about")}>
             sobre
           </Link>
         </li>
