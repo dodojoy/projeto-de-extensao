@@ -4,46 +4,67 @@ import styles from '@/styles/Material.module.css';
 
 export default function MaterialIa() {
   return (
-    <div>
+    <section className={styles.materialContainer}>
       <div className={styles.Titulo}>
         <Titulo titulo="Materiais" />
       </div>
-      <div>
+      <div className={styles.detailsContainer}>
         <Details summary="Materiais gratuitos">
-          <a href="https://www.iped.com.br/informatica/curso/arduino" target="_blank">
-            <img src="/assets/banners/logo - iped (1).svg" alt="Banner" />
-          </a>
-          <p>Curso Gratuito de Arduino</p>
-          <a href="https://www.iped.com.br/informatica/curso/machine-learning" target="_blank">
-            <img src="/assets/banners/logo - iped (1).svg" alt="Banner" />
-          </a>
-          <p>Curso de Machine Learning</p>
-          <a href="https://www.iped.com.br/informatica/curso/deeplearning.ai-tensorflow" target="_blank">
-            <img src="/assets/banners/logo - iped (1).svg" alt="Banner" />
-          </a>
-          <p>Curso de DeepLearning.AI no TensorFlow</p>
+          <div className={styles.card}>
+            <a href="https://www.iped.com.br/informatica/curso/arduino" target="_blank">
+              <img src="/assets/banners/logo - iped (1).svg" alt="Banner" />
+            </a>
+            <div className={styles.cardTitle}>
+              <p>Curso Gratuito de Arduino</p>
+            </div>
+          </div>
+          <div className={styles.card}>
+            <a href="https://www.iped.com.br/informatica/curso/machine-learning" target="_blank">
+              <img src="/assets/banners/logo - iped (1).svg" alt="Banner" />
+            </a>
+            <div className={styles.cardTitle}>
+              <p>Curso de Machine Learning</p>
+            </div>
+          </div>
+          <div className={styles.card}>
+            <a href="https://www.iped.com.br/informatica/curso/deeplearning.ai-tensorflow" target="_blank">
+              <img src="/assets/banners/logo - iped (1).svg" alt="Banner" />
+            </a>
+            <div className={styles.cardTitle}>
+              <p>Curso de DeepLearning.AI no TensorFlow</p>
+            </div>
+          </div>
 
-          <a href="https://www.learncafe.com/cursos/introducao-a-ia-conceitos-fundamentais" target="_blank">
-            <img src="assets/banners/logo - learncafe.svg" alt="Banner" />
-          </a>
-          <p>Introdução à IA: Conceitos Fundamentais</p>
+          <div className={styles.card}>
+            <a href="https://www.learncafe.com/cursos/introducao-a-ia-conceitos-fundamentais" target="_blank">
+              <img src="assets/banners/logo - learncafe.svg" alt="Banner" />
+            </a>
+            <div className={styles.cardTitle}>
+              <p>Introdução à IA: Conceitos Fundamentais</p>
+            </div>
+          </div>
           
         </Details>
         <Details summary="Materiais pagos">
-          <a href="https://www.udemy.com/course/machine-learning-e-data-science-com-python-y/?couponCode=ST2MT43024" target="_blank">
-            <img src="assets/banners/logo - udemy IA.svg" alt="Banner" />
-          </a>
-          <p>Machine Learning e Data Science com Python de A a Z</p>
+          <div className={styles.card}>
+            <a href="https://www.udemy.com/course/machine-learning-e-data-science-com-python-y/?couponCode=ST2MT43024" target="_blank">
+              <img src="assets/banners/logo - udemy IA.svg" alt="Banner" />
+            </a>
+            <div className={styles.cardTitle}>
+              <p>Machine Learning e Data Science com Python de A a Z</p>
+            </div>
+          </div>
 
-          <a href="https://www.udemy.com/course/inteligencia-artificial-machine-learning-guia-completo/?couponCode=ST2MT43024" target="_blank">
-            <img src="/assets/banners/logo - udemy IA2.svg" alt="Banner" />
-          </a>
-          <p>Inteligência Artificial e Machine Learning: O Guia Completo</p>
-        </Details>
-        <Details summary="Materiais extras">
-          <p>Conteúdo dos materiais extras</p>
+          <div className={styles.card}>
+            <a href="https://www.udemy.com/course/inteligencia-artificial-machine-learning-guia-completo/?couponCode=ST2MT43024" target="_blank">
+              <img src="/assets/banners/logo - udemy IA2.svg" alt="Banner" />
+            </a>
+            <div className={styles.cardTitle}>
+              <p>Inteligência Artificial e Machine Learning: O Guia Completo</p>
+            </div>
+          </div>
         </Details>
       </div>
-    </div>
+    </section>
   );
 }
