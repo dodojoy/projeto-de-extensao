@@ -45,9 +45,6 @@ export default function MaterialManutencao() {
           <p>Manutenção Express - Formatação e Reparo de Computadores</p>
 
         </Details>
-        <Details summary="Materiais extras">
-          <p>Conteúdo dos materiais extras</p>
-        </Details>
       </div>
     </div>
   );
