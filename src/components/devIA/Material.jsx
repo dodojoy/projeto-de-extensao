@@ -64,13 +64,6 @@ export default function MaterialIa() {
             </div>
           </div>
         </Details>
-        <Details summary="Materiais extras">
-          <div className={styles.card}>
-            <div className={styles.cardTitle}>
-              <p>Conteúdo dos materiais extras</p>
-            </div>
-          </div>
-        </Details>
       </div>
     </section>
   );

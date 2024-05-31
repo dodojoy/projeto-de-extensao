@@ -86,11 +86,6 @@ export default function MaterialWeb() {
             </div>
           </div>
         </Details>
-        <Details summary="Materiais extras">
-          <div className={styles.cardTitle}>
-            <p>Conteúdo dos materiais extras</p>
-          </div>
-        </Details>
       </div>
     </section>
   );

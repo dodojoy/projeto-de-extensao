@@ -71,16 +71,7 @@ export default function MaterialDevMob() {
               <p>Formação Fabrica de Aplicativos</p>
             </div>
           </div>
-        </Details>
-        
-        <Details summary="Materiais extras">
-          <div className={styles.card}>
-            <div className={styles.cardTitle}>
-              <p>Conteúdo dos materiais extras</p>
-            </div>
-          </div>
-        </Details>
-        
+        </Details>       
       </div>
     </section>
   );
